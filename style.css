@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+
+#nav-logo{
+    width: 100px;
+}
+
+.nav-backcolor{
+    background-color: #04040485 !important;
+}
+
+.navbar-collapse{
+    flex-grow:0;
+    padding-right: 2rem;
+}
+
+.nav-item{
+    margin-right: 20px;
+    color: #e1e1e1;
+}
+
