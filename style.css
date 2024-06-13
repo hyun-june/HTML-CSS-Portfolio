@@ -20,3 +20,42 @@ body{
     color: #e1e1e1;
 }
 
+footer{
+    position: absolute;
+    bottom: 0;
+}
+
+.footer-container{
+    background-color: #04040485;
+    width: 100vw;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+#footer-logo{
+    width: 100px;
+    position: absolute;
+    left: 10px;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.footer-left{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    width: 400px;
+}
+
+.footer-right{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid red;
+    width: 400px;
+}
