@@ -2,6 +2,8 @@ body{
     margin: 0;
 }
 
+/* Nav */
+
 #nav-logo{
     width: 100px;
 }
@@ -19,6 +21,9 @@ body{
     margin-right: 20px;
     color: #e1e1e1;
 }
+
+
+/* footer */
 
 footer{
     position: absolute;
@@ -58,4 +63,12 @@ footer{
     justify-content: space-around;
     border: 1px solid red;
     width: 400px;
+}
+
+
+.footer-icon{
+    color: #04040485;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
 }

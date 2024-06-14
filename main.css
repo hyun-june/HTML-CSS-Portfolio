@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+
+main{
+    background-image: url(/img/starimg.gif);
+}
+
+.container-fluid{
+    flex-wrap: nowrap;
+}
+
+.bg-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+#bg-circle{
+    width: 40em;
+    height: 40em;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.title{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    font-size: 100px;
+}
