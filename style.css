@@ -6,7 +6,7 @@ body{
 /* first-section */
 
 .first-section{
-    background-image: url(/img/starimg.gif);
+    background-image: url(/img/main1-img.gif);
     background-size: cover;
 }
 
@@ -44,11 +44,11 @@ body{
 .second-section{
     display: flex;
     justify-content: space-around;
-    background-color: aquamarine;
     padding: 3rem 0;
-    height: 60vh;
+
     width: 100vw;
     position: relative;
+    z-index: 3;
 }
 
 #profile-img-section{
@@ -86,14 +86,15 @@ body{
     position: relative;
     left: -25rem;
     text-align: left;
-    border: 1px solid blue;
     padding-top: 3rem;
 }
 
 /* third-section */
 
 .third-section{
-    background-color: gray;
+    display: flex;
+    justify-content: center;
+    background-color: #c6dbda;
     height: 100vh;
     padding: 3rem 0;
 }
@@ -102,17 +103,18 @@ body{
     display: flex;
     justify-content: space-around;
     margin: 3rem 0;
+    width: 80vw;
 }
 
-.box{
-    border: 1px solid red;
-    height: 200px;
+.row{
     padding: 0px;
 }
 
 .inner-img{
     height: 200px;
-    width: auto;
+    width: 350px;
+    border-radius: 3%;
+
 }
 
 /* Modal */
@@ -152,4 +154,27 @@ h3{
     padding: 8px 11px 8px 11px;
     color: #ffffff;
     border-top-left-radius: 5px;
+}
+
+/* side btn */
+
+.side-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: fixed;
+    top: 40%;
+    z-index: 1000;
+} 
+
+
+.side-item{
+    text-decoration: none;
+    width: 100px;
+    color: #020715;
+}
+
+.side-section .active{
+    background-color: #ecd5e3;
+    font-weight: bold;
 }
